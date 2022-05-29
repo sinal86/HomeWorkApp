@@ -1,4 +1,4 @@
-// 1. СЃРѕР·РґР°С‚СЊ РєР»Р°СЃСЃ HomeWorkApp, Рё РїСЂРѕРїРёСЃР°С‚СЊ РІ РЅРµРј РјРµС‚РѕРґ main()
+// 1. создать класс HomeWorkApp, и прописать в нем метод main()
 public class HomeWorkApp {
     public static void main(String[] args) {
         printThreeWords();
@@ -8,37 +8,37 @@ public class HomeWorkApp {
 
     }
 
-    // 2.РЎРѕР·РґР°Р№С‚Рµ РјРµС‚РѕРґ printThreeWords(), РєРѕС‚РѕСЂС‹Р№ РїСЂРё РІС‹Р·РѕРІРµ РґРѕР»Р¶РµРЅ РѕС‚РїРµС‡Р°С‚Р°С‚СЊ РІ СЃС‚РѕР»Р±РµС† С‚СЂРё СЃР»РѕРІР°: Orange, Banana, Apple
+    // 2.Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
 
-    //3.РЎРѕР·РґР°Р№С‚Рµ РјРµС‚РѕРґ checkSumSign(), РІ С‚РµР»Рµ РєРѕС‚РѕСЂРѕРіРѕ РѕР±СЉСЏРІРёС‚Рµ РґРІРµ int РїРµСЂРµРјРµРЅРЅС‹Рµ a Рё b...
+    //3.Создайте метод checkSumSign(), в теле которого объявите две int переменные a и b...
     public static void checkSumSign() {
         int a = 50;
         int b = 70;
         if (a + b >= 0) {
-            System.out.println("РЎСѓРјРјР° РїРѕР»РѕР¶РёС‚РµР»СЊРЅР°");
+            System.out.println("Сумма положительна");
         } else {
-            System.out.println("РЎСѓРјРјР° РѕС‚СЂРёС†Р°С‚РµР»СЊРЅР°");
+            System.out.println("Сумма отрицательна");
         }
     }
 
-    // 4. РЎРѕР·РґР°Р№С‚Рµ РјРµС‚РѕРґ printColor() РІ С‚РµР»Рµ РєРѕС‚РѕСЂРѕРіРѕ Р·Р°РґР°Р№С‚Рµ int РїРµСЂРµРјРµРЅРЅСѓСЋ value...
+    // 4. Создайте метод printColor() в теле которого задайте int переменную value...
     public static void printColor() {
         int value = 300;
         if (value <= 0) {
-            System.out.println("РљСЂР°СЃРЅС‹Р№");
+            System.out.println("Красный");
         } else if (0 < value && value <= 100) {
-            System.out.println("Р–РµР»С‚С‹Р№");
+            System.out.println("Желтый");
         } else if (value > 100) {
-            System.out.println("Р—РµР»С‘РЅС‹Р№");
+            System.out.println("Зелёный");
         }
     }
 
-    // 5. РЎРѕР·РґР°Р№С‚Рµ РјРµС‚РѕРґ compareNumbers(), РІ С‚РµР»Рµ РєРѕС‚РѕСЂРѕРіРѕ РѕР±СЉСЏРІРёС‚Рµ РґРІРµ int РїРµСЂРµРјРµРЅРЅС‹Рµ a Рё b, Рё РёРЅРёС†РёР°Р»РёР·РёСЂСѓР№С‚Рµ РёС… Р»СЋР±С‹РјРё...
+    // 5. Создайте метод compareNumbers(), в теле которого объявите две int переменные a и b, и инициализируйте их любыми...
     public static void compareNumbers() {
         int a = 50;
         int b = 30;
